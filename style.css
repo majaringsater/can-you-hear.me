@@ -1,0 +1,889 @@
+body {
+  background-color: white;
+}
+.webring-left {
+        display: none;
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-size: 28px;
+        font-style: italic;
+        top: 85;
+        left: 535;
+        color: black;
+        z-index: 6;
+ } 
+.webring-middle {
+        display: none;
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-size: 20px;
+        font-style: italic;
+        text-align: left;
+        top: 160;
+        left: 430;
+        color: black;
+        z-index: 6;
+ } 
+
+.webring-right {
+        display: none;
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-size: 28px;
+        font-style: italic;
+        top: 280;
+        left: 880;
+        color: black;
+        z-index: 6;
+ } 
+
+a:link {
+  color: #ebfe53;
+  text-decoration: none;
+}
+a:visited {
+  color: #ebfe53;
+  text-decoration: none;
+}
+
+
+.start {
+        white-space: nowrap;
+        display: none;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 80px;
+        text-align: right;
+        line-height: 16px;
+        color: #ebfe53;
+        z-index: 3;
+        animation: slow 3s;
+      }
+
+.start2 {
+        white-space: nowrap;
+        display: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 30px;
+        text-align: right;
+        line-height: 30px;
+        color: #ebfe53;
+        z-index: 3;
+        animation: slow 3s;
+      }
+
+.start3 {
+        white-space: nowrap;
+        display: none;
+        top: 10;
+        right: 20;
+        position: absolute;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 30px;
+        text-align: right;
+        line-height: 30px;
+        color: #ebfe53;
+        z-index: 3;
+      }
+
+.facetime {
+        white-space: nowrap;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 16px;
+        top: 700px;
+        left: 390px;
+        color: red;
+      }
+
+.kryss {
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Nothing You Could Do';
+        font-size: 50px;
+        top: 490px;
+        left: 650px;
+        color: red;
+        z-index: 2; 
+        
+}
+
+.kryss2 {
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Nothing You Could Do';
+        font-size: 50px;
+        top: 600px;
+        left: 1200px;
+        color: red;
+        z-index: 2; 
+        animation: blink 1s linear infinite;
+        
+}
+
+.kryss3 {
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Nothing You Could Do';
+        font-size: 50px;
+        top: 270px;
+        left: 850px;
+        color: red;
+        z-index: 2; 
+        animation: blink 0.5s linear infinite;     
+}
+
+.kryss4 {
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Nothing You Could Do';
+        font-size: 50px;
+        top: 75px;
+        left: 502px;
+        color: red;
+        z-index: 2;     
+}
+
+.kryss5 {
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Nothing You Could Do';
+        font-size: 50px;
+        top: 450px;
+        left: 1300px;
+        color: red;
+        z-index: 2;     
+}
+
+.kryss6 {
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Nothing You Could Do';
+        font-size: 50px;
+        top: 500px;
+        left: 1000px;
+        color: red;
+        z-index: 2;     
+}
+
+
+.krysshidden {
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Nothing You Could Do';
+        font-size: 50px;
+        top: 600px;
+        left: 3000px;
+        color: red;
+        z-index: 2;     
+}
+
+.bubbla {
+        display: none;
+        scale: 80%;
+        position: fixed;
+        top: 15;
+        left: 35;
+        z-index: 3;
+      }
+
+.bubblahidden {
+        display: none;
+        scale: 80%;
+        position: fixed;
+        bottom: 100;
+        right: 0;
+        z-index: 3;
+      }
+
+.bubbla2 {
+        opacity: 0;
+        scale: 50%;
+        position: fixed;
+        top: 10;
+        left: -20;
+        z-index: 3;
+      }
+.bubbla3 {
+        opacity: 0;
+        scale: 50%;
+        position: fixed;
+        top: 200;
+        left: 130;
+        z-index: 3;
+      }
+.bubbla4 {
+        opacity: 0;
+        scale: 50%;
+        position: fixed;
+        top: 60;
+        left: 380;
+        z-index: 3;
+      }
+.svar {
+        opacity: 0;
+        scale: 50%;
+        position: fixed;
+        top: 160;
+        left: 200;
+        z-index: 3;
+      }
+.svar2 {
+        opacity: 0;
+        scale: 50%;
+        position: fixed;
+        top: 200;
+        left: 400;
+        z-index: 3;
+      }
+.svar3 {
+        opacity: 0;
+        scale: 50%;
+        position: fixed;
+        top: 130;
+        left: -140;
+        z-index: 3;
+      }
+
+
+
+.communication {
+        white-space: nowrap;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 16px;
+        text-align: right;
+        line-height: 16px;
+        top: 85px;
+        left: 735px;
+        color: red;
+        z-index: 2; 
+      }
+
+.arrow {
+        width: 40px;
+        transform: rotate(330deg);
+        border-right: 20px solid transparent;
+        position: fixed;
+        bottom: 0;
+        right: -10;
+        z-index: 6;
+        
+      }
+
+.me {
+        scale: 20%;
+        position: fixed;
+        top: -110;
+        left: -80;
+        z-index: 4;
+      }
+.you {
+        scale: 20%;
+        position: fixed;
+        bottom: -80;
+        right:-80;
+        z-index: 4;
+      }
+
+      .tele {
+        scale: 40%;
+        position: fixed;
+        top: 400;
+        left: 100;
+        z-index: 1;
+      }
+
+.telebos {
+        scale: 40%;
+        position: fixed;
+        top: 60;
+        left: 900;
+        z-index: 3;
+      }
+
+.distans {
+        white-space: nowrap;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+        bottom: 5;
+        left: 15;
+        color: grey;
+        z-index: 6; 
+      }
+
+.eleven {
+        display: none;
+        scale: 80%;
+        position: fixed;
+        top: 120;
+        left: 200;
+        z-index: 3;
+      }
+
+.distans2 {
+        white-space: nowrap;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 12px;
+        text-align: right;
+        line-height: 16px;
+        bottom: 2;
+        left: 10;
+        color: grey;
+        z-index: 6; 
+      }
+
+.distans3 {
+        white-space: nowrap;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 12px;
+        text-align: right;
+        line-height: 16px;
+        bottom: 2;
+        left: 10;
+        color: grey;
+        z-index: 6; 
+      }
+
+.distans4 {
+        white-space: nowrap;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 12px;
+        text-align: right;
+        line-height: 16px;
+        bottom: 2;
+        left: 10;
+        color: grey;
+        z-index: 6; 
+      }
+.distanshidden {
+        white-space: nowrap;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 12px;
+        text-align: right;
+        line-height: 16px;
+        top: 2;
+        right: 10;
+        color: grey;
+        z-index: 6; 
+      }
+
+.my-form {
+        position: relative;
+        top: 31px;
+        left: 98px;
+        z-index: 3;
+        display: none;
+      }
+
+.my-form input[type="text"] {
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 16px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #cccccc;
+        width: 280px;
+        position: absolute;
+        outline: 1px solid white;
+      }
+
+.button {
+        padding: 10px 5px;
+        background-color: #ebfe53;
+        color: black;
+        border: 1.5px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        cursor: pointer;
+        position: fixed;
+        left: 380px;
+        top: 80px;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 12px;
+        z-index: 4;
+        display: none;
+      }
+
+#myImage {
+        display: none;
+        scale: 80%;
+        position: fixed;
+        top: 12;
+        left: 28;
+        z-index: 5;
+}
+
+.tjej {
+        display: none;
+        scale: 140%;
+        position: fixed;
+        top: 80;
+        left: 0;
+        z-index: 1;
+}
+
+.mail {
+        display: none;
+        scale: 50%;
+        position: fixed;
+        top: 80;
+        left: 0;
+        z-index: 4;
+        
+}
+.text {
+        display: none;
+        scale: 100%;
+        position: fixed;
+        top: 10;
+        left: 300;
+        z-index: 4;
+}
+
+.mail:hover + .text {
+  display: block;
+}
+
+.help {
+        white-space: nowrap;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-size: 30px;
+        font-style: italic;
+        top: 700px;
+        left: 902px;
+        color: black;
+        z-index: 2;
+ } 
+
+.clue {
+        white-space: nowrap;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        font-style: italic;
+        top: 715px;
+        left: 565px;
+        color: grey;
+        z-index: 6;
+ } 
+
+.help:hover + .clue {
+  display: block;
+}
+
+.my-form2 {
+        position: fixed;
+        bottom: 135px;
+        right: 200px;
+        z-index: 5;
+        display: none;
+      }
+
+.my-form2 input[type="text2"] {
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 16px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #cccccc;
+        width: 280px;
+        position: absolute;
+        outline: 1px solid white;
+        z-index: 5;
+      }
+
+.button2{
+        padding: 10px 5px;
+        background-color: #ebfe53;
+        color: black;
+        border: 1.5px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 165px;
+        right: 45px;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 12px;
+        z-index: 6;
+        display: none;
+      }
+
+#myImage2 {
+        display: none;
+        scale: 70%;
+        position: fixed;
+        bottom: -80;
+        right: -70;
+        z-index: 7;
+}
+
+.warning{
+        z-index: 10;
+        display: none;
+        position: fixed;
+        font-family: 'Space Mono', monospace;
+        font-style: italic;
+        font-size: 20px;
+        top: 60vh;
+        left: 10vw;
+        color: black;
+        line-height: 25px;
+}
+
+.you2 {
+        display: none;
+        position: fixed;
+        top: 3vh;
+        right: 5vw;
+        z-index: 10;
+      }
+
+
+@media screen and (min-width: 1360px)and (max-width: 2000px)and (min-height: 760px)and (max-height: 1200px){
+        .start {
+          display: block;
+        }
+        .start2 {
+          display: block;
+        }
+        .arrow {
+          animation: pilen 3s;
+          animation-iteration-count: infinite;
+          animation-delay: 3s;
+        }
+        .me {
+          top: 23%;
+          left: -2%;
+          transform: translate(-50%, -50%);
+        }
+        .you {
+          top: 4%;
+          right: -6%;
+          transform: translate(-50%, -50%);
+        }
+  }
+
+@media screen and (max-width: 1360px)and (max-height: 760px){
+        .start3 {
+          display: block;
+        }
+  }
+
+@media screen and (min-width: 915px) and (max-width: 925px)and (min-height: 330px) and (max-height: 340px){
+        .kryss3 {
+          color: black;
+        }
+        .kryss2 {
+          display: none;
+        }
+        .kryss4 {
+          display: none;
+        }
+        .distans2 {
+          display: block;
+        }
+        .bubbla2 {
+          animation: popup 6s infinite;
+          animation-delay: 0s;
+        }
+        .bubbla3 {
+          animation: popup 6s infinite;
+          animation-delay: 2s;
+        }
+        .bubbla4 {
+          animation: popup 6s infinite;
+          animation-delay: 4s;
+        }
+        .svar {
+          animation: popup 6s infinite;
+          animation-delay: 1s;
+        }
+        .svar2 {
+          animation: popup 6s infinite;
+          animation-delay: 3s;
+        }
+        .svar3 {
+          animation: popup 6s infinite;
+          animation-delay: 5s;
+        }
+  }
+
+@media screen and (min-width: 0px) and (max-width: 578px)and (min-height: 0px) and (max-height: 150px){
+        .kryss4 {
+          color: black;
+        }
+        .bubbla {
+          display: block;
+        }
+        .my-form {
+          display: block;
+        }
+        .button {
+          display: block;
+        }
+        .distans {
+          display: block;
+        }
+  }
+  
+@media screen and (min-width: 715px) and (max-width: 725px)and (min-height: 555px) and (max-height: 565px){
+        .kryss {
+          color: black;
+        }    
+        .kryss4 {
+          display: none;
+        }
+        .tele {
+          display: none;
+        }
+        .tjej{
+          display: block;
+          animation: shake 0.5s;
+          animation-iteration-count: infinite; 
+        }
+        .distans3 {
+          display: block;
+        }
+  }
+
+  @media screen and (min-width: 1270px) and (max-width: 1280px)and (min-height: 660px) and (max-height: 670px){
+        .kryss2 {
+          color: black;
+        }  
+        .mail {
+          display: block;
+        }   
+        .tele {
+          display: none;
+        }  
+        .telebos {
+          display: none;
+        }  
+        .kryss3 {
+          display: none;
+        } 
+        .kryss4 {
+          display: none;
+        } 
+        .kryss {
+          display: none;
+        } 
+        .distans4 {
+          display: block;
+        } 
+        .kryss6 {
+          display: none;
+        } 
+  }  
+
+  @media screen and (min-width: 3070px) and (max-width: 3080px)and (min-height: 665px) and (max-height: 675px){
+        .krysshidden {
+          color: black;
+        } 
+        .distanshidden {
+          display: block;
+        }  
+        .bubblahidden {
+          display: block;
+        }
+        .my-form2 {
+          display: block;
+        }
+        .button2 {
+          display: block;
+        }
+        .distans {
+          display: block;
+        }
+  }   
+
+   @media screen and (min-width: 1370px) and (max-width: 1375px)and (min-height: 510px) and (max-height: 520px){
+        .kryss5 {
+          color: black;
+        } 
+        .kryss3 {
+          color: black;
+        } 
+         .kryss4 {
+          color: black;
+        } 
+         .telebos {
+          display: none;
+        } 
+        .kryss {
+          display: none;
+        } 
+         .webring-left {
+          display: block;
+        } 
+          .webring-middle {
+          display: block;
+        } 
+          .webring-right {
+          display: block;
+        } 
+      
+  }
+
+   @media screen and (min-width: 1065px) and (max-width: 1075px)and (min-height: 560px) and (max-height: 570px){
+        .kryss6 {
+          color: black;
+        } 
+        .eleven {
+          display: block;
+        } 
+         .telebos {
+          display: none;
+        } 
+        .kryss3 {
+          display: none;
+        } 
+         .kryss4 {
+          display: none;
+        } 
+          .kryss {
+          display: none;
+        } 
+      
+  }
+
+   @media screen and (max-width: 500px){
+        .warning {
+          display: block;
+        } 
+         .you2 {
+          display: block;
+        }
+         .tele {
+          display: none;
+        }
+         .you {
+          display: none;
+        }
+         .me {
+          display: none;
+        }
+         .arrow {
+          display: none;
+        }
+         .start3{
+          display: none;
+        }
+  }
+
+
+@keyframes slow { 
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes pilen { 
+  0% {
+    scale: 100%;
+  }
+  50% {
+    scale: 120%;
+  }
+  100% {
+    scale: 100%;
+  }
+}
+
+
+@keyframes foot{
+    0%{transform: trotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+     
+@keyframes popup { 
+  0% {
+    opacity: 0;
+  }
+  32% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+      
+
+  
+
